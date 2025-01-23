@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today's Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="todaysquiz.html" class="nav-link">Today's Quiz</a>
+      <a href="pastquizzes.html" class="nav-link">Grammar Topics</a>
+    </nav>
+    <div class="container">
+      <h1>Today's Quiz</h1>
+
+      <h2>Present Continuous for Future Plans</h2>
+      <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/B2IldXHBDA0?si=ngCJy73DxBdDhMqA"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="questions">
+        <h2>Choose the best answer.</h2>
+        <br />
+        <form id="quiz-form">
+          <div class="question">
+            <p>1. Maria _____ to France next week.</p>
+            <label
+              ><input type="radio" name="q1" value="a" /> A. will going</label
+            ><br />
+            <label><input type="radio" name="q1" value="b" /> B. is going</label
+            ><br />
+            <label
+              ><input type="radio" name="q1" value="c" /> C. are going</label
+            ><br /><br />
+          </div>
+
+          <div class="question">
+            <p>2. What _____ you doing tomorrow night?</p>
+            <label><input type="radio" name="q2" value="a" /> A. are</label
+            ><br />
+            <label><input type="radio" name="q2" value="b" /> B. will</label
+            ><br />
+            <label><input type="radio" name="q2" value="c" /> C. is</label
+            ><br /><br />
+          </div>
+
+          <div class="question">
+            <p>3. We _____ not doing this again!</p>
+            <label><input type="radio" name="q3" value="a" /> A. will</label
+            ><br />
+            <label><input type="radio" name="q3" value="b" /> B. are</label
+            ><br />
+            <label><input type="radio" name="q3" value="c" /> C. is</label
+            ><br /><br />
+          </div>
+
+          <div class="question">
+            <p>4. The books on the table _____ mine.</p>
+            <label><input type="radio" name="q4" value="a" /> A. is</label
+            ><br />
+            <label><input type="radio" name="q4" value="b" /> B. are</label
+            ><br />
+            <label><input type="radio" name="q4" value="c" /> C. am</label
+            ><br /><br />
+          </div>
+
+          <div class="question">
+            <p>5. He _____ a new car last week.</p>
+            <label><input type="radio" name="q5" value="a" /> A. buys</label
+            ><br />
+            <label><input type="radio" name="q5" value="b" /> B. bought</label
+            ><br />
+            <label><input type="radio" name="q5" value="c" /> C. buying</label
+            ><br /><br />
+          </div>
+
+          <div class="question">
+            <p>6. If I _____ enough money, I would buy a new phone.</p>
+            <label><input type="radio" name="q6" value="a" /> A. have</label
+            ><br />
+            <label><input type="radio" name="q6" value="b" /> B. had</label
+            ><br />
+            <label><input type="radio" name="q6" value="c" /> C. has</label
+            ><br /><br />
+          </div>
+
+          <div class="question">
+            <p>7. They _____ soccer every Sunday.</p>
+            <label><input type="radio" name="q7" value="a" /> A. plays</label
+            ><br />
+            <label><input type="radio" name="q7" value="b" /> B. play</label
+            ><br />
+            <label><input type="radio" name="q7" value="c" /> C. playing</label
+            ><br /><br />
+          </div>
+
+          <div class="question">
+            <p>8. The movie _____ very interesting last night.</p>
+            <label><input type="radio" name="q8" value="a" /> A. was</label
+            ><br />
+            <label><input type="radio" name="q8" value="b" /> B. were</label
+            ><br />
+            <label><input type="radio" name="q8" value="c" /> C. is</label
+            ><br /><br />
+          </div>
+
+          <div class="question">
+            <p>9. I have _____ my homework already.</p>
+            <label><input type="radio" name="q9" value="a" /> A. finish</label
+            ><br />
+            <label><input type="radio" name="q9" value="b" /> B. finished</label
+            ><br />
+            <label
+              ><input type="radio" name="q9" value="c" /> C. finishing</label
+            ><br /><br />
+          </div>
+
+          <div class="question">
+            <p>10. We _____ TV when it started to rain.</p>
+            <label
+              ><input type="radio" name="q10" value="a" /> A. were
+              watching</label
+            ><br />
+            <label><input type="radio" name="q10" value="b" /> B. watched</label
+            ><br />
+            <label
+              ><input type="radio" name="q10" value="c" /> C. watching</label
+            ><br /><br />
+          </div>
+
+          <button type="button" onclick="calculateScore()">Submit</button>
+        </form>
+        <div id="result"></div>
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
